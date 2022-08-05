@@ -1,0 +1,28 @@
+[base]
+name=CentOS-6.8 - Base - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos-vault/6.8/os/$basearch/
+gpgcheck=1
+gpgkey=http://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+  
+[updates]
+name=CentOS-6.8 - Updates - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos-vault/6.8/updates/$basearch/
+gpgcheck=1
+gpgkey=http://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+  
+[extras]
+name=CentOS-6.8 - Extras - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos-vault/6.8/extras/$basearch/
+gpgcheck=1
+gpgkey=http://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
+  
+[centosplus]
+name=CentOS-6.8 - Plus - mirrors.aliyun.com
+failovermethod=priority
+baseurl=http://mirrors.aliyun.com/centos-vault/6.8/centosplus/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=http://mirrors.aliyun.com/centos-vault/RPM-GPG-KEY-CentOS-6
